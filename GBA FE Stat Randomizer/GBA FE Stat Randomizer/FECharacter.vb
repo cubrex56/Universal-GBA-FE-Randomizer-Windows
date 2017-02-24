@@ -528,15 +528,15 @@ Public Class FECharacter
         End If
 
         If useMinimumGrowth Then
-            hpGrowth = 5
-            strGrowth = 5
-            sklGrowth = 5
-            spdGrowth = 5
-            lckGrowth = 5
-            defGrowth = 5
-            resGrowth = 5
+            hpGrowth = 20
+            strGrowth = 10
+            sklGrowth = 10
+            spdGrowth = 10
+            lckGrowth = 10
+            defGrowth = 10
+            resGrowth = 10
 
-            total -= 7 * 5
+            total -= 8 * 10
         End If
 
         While total > 0
